@@ -15,9 +15,10 @@ hashed forwarding to install a path.
 Because of the randomized behaviour of this algorithm, there are some cases in which colliding
 paths are chosen. This can result in congestion further leading to lower data transfer times than
 expected.
-Here, we propose a greedy algorithm (henceforth called Least Congested Path- LCP) which strives
+
+Here, we propose a greedy algorithm (called Least Congested Path- LCP) which strives
 to max-utilize the available bandwidth in a network by exploiting the multi-path capability of
-FatTree topology. Through the paper, we will put forth the algorithm and prove how it benefits over
-ECMP.
-Topology setup is done using mininet[1], SDN controller is POX[2] and measurements are
-performed using IPERF[3] traffic generator.
+FatTree topology. 
+
+Topology setup is done using mininet, SDN controller is POX and measurements are
+performed using IPERF traffic generator.
