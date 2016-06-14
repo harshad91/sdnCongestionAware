@@ -3,7 +3,7 @@
 This study is based on the concept used by recent data center designs which use a topology
 facilitating multiple paths between two hosts. A typical topology (Fattree) is shown below.
 
-![alt tag]()
+![](https://raw.githubusercontent.com/harshad91/sdnCongestionAware/master/fattree_num.png)
 
 Figure1: Fattree topology
 
